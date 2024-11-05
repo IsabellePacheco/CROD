@@ -1,4 +1,6 @@
 <?php
+
+
 include 'conexao.php'; // Inclui o arquivo de conexão
 
 $sql = "SELECT * FROM infromações"; // Consulta todos os usuários
