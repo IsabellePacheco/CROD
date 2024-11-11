@@ -3,7 +3,7 @@
 
 include 'conexao.php'; // Inclui o arquivo de conexão
 
-$sql = "SELECT * FROM infromações"; // Consulta todos os usuários
+$sql = "SELECT * FROM usuarios"; // Consulta todos os usuários
 $result = $conn->query($sql); // Executa a consulta
 
 if ($result->num_rows > 0) { // Se há resultados
